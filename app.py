@@ -36,7 +36,7 @@ plt.figure(figsize=(10, 6))
 sns.violinplot(data=iris_data, x='species', y=selected_feature, palette='Set1')
 st.pyplot()
 
-
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Display the filtered data
 st.subheader('Filtered Data')
